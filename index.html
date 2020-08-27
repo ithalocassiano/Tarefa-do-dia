@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Tarefas do dia</title>
+
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+
+		<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+		<header>
+			<div>
+				<h1 class="titulo">Tarefas do Dia</h1>
+			</div>
+		</header>
+		<main>
+			<section >
+				<h3>Adicionar nova tarefa</h3>
+				<ul id="mensagem-erro"></ul>
+
+				<form id="AddTarefa">
+					<div class="add-tarefa">
+						<label for="tarefa" class="txtTarefa">O que temos pra hoje?</label>
+						<input type="text" name="tarefa"  id="tarefa" placeholder="Escreva aqui seus a fazeres do dia :)" class="campo-tarefa">
+						
+						</textarea>
+					</div>
+
+					<button id="adicionar-tarefa" class="botao">Salvar Tarefa</button>
+				</form>
+
+			</section>
+
+			<section>
+
+				<h3>Tarefas de Hoje</h3>
+				<span class="info">Dê um duplo clique para marcar como tarefa concluida 😜</span>
+				<table id="tableTarefa">
+					<thead>
+						<tr>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody id="tabela-tarefas">
+						<tr class="tarefas">
+							<td class="tarefaAdd">Suas tarefas ficarão aqui 😻</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section>
+
+				<h3>Tarefas Concluídas</h3>
+				<span class="info">Dê um duplo clique para limpar sua tarefas concluídas 😆</span>
+				<table id="tarefas-concluidas">
+					<thead>
+						<tr>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody id="tabela-tarefas">
+						<tr class="tarefas-feita">
+							<td class="tarefaAdd-feita">Assim que concluir suas tarefas, elas virão para cá ✌</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+		</main>
+
+		<script src="tarefa.js"></script>
+		<script src="tarefaConcluida.js"></script>
+		<script src="limparTarefaConcluida.js"></script>
+
+	</body>
+</html>

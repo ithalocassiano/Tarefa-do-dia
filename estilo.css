@@ -1,0 +1,173 @@
+
+*{
+	box-sizing: border-box;
+ }
+
+body {
+	width: 940px auto;
+	background-color: #E9F7EF;
+	font-family: 'Special Elite', cursive;
+	font-size: 18px;
+}
+
+header {
+	
+	height: 100px;
+	text-align: center;
+	vertical-align:	middle;
+	background-color: #D4EFDF;
+
+}
+
+h3{
+	font-size: 2.2em;
+	display:inline-block;
+	vertical-align:	middle;
+	padding: 20px 30px;
+
+}
+h3:before {
+	content: "✎ ";
+}
+
+main {
+	width: 940px auto;
+}
+
+form {
+	
+	display: block;
+	
+}
+
+.info {
+	color: #424949;
+	font-size: 0.8em;
+	display: inline-block;
+	background-color: #D4EFDF;
+	border: none;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+.add-tarefa {
+	text-align: center;
+	display: inline-block;
+
+}
+.txtTarefa {
+	display: block;
+	margin: 15px 20px;
+	font-size: 20px;
+	font-weight:bold;
+}
+
+.tarefas {
+	display: block;
+	height:auto;
+}
+
+.campo-tarefa {
+	height: 200px;
+	width: 550px;
+	font-size: 20px;
+	background: #D4EFDF;
+	text-align: center;
+	color: #196F3D;
+	border: none;
+	border-radius: 15px;
+	transition: 0.7s all;
+	margin: 0 50px;
+	display: block;
+}
+
+.campo-tarefa:hover {
+	background: #A9DFBF;
+}
+
+.botao {
+	border: none;
+	padding: 10px 15px;
+	margin: 15px 50px;
+	cursor: pointer;
+	border-radius: 10px;
+	font-weight: bold;
+	background:#BB8FCE;
+	color: #E9F7EF;
+	text-transform: uppercase;
+	transition: 0.7s all;
+	display: block;
+	clear: both;
+}
+
+.botao:hover {
+	background:#8E44AD;
+	position: center;
+}
+
+.titulo {
+	font-size: 3em;
+	font-weight: 200px;
+	padding: 30px ;
+}
+
+table {
+
+	margin: 0 50px;
+}
+
+.tarefaAdd {
+	height: 100px auto;
+	width: 130px auto;
+	cursor: pointer;
+	background: #EBDEF0;
+	color: #76448A;
+	padding: 10px;
+	margin: 20px;
+	border: none;
+	border-radius: 35px;
+	text-align: center;
+	transition: 0.7s all;
+	display: inline-block;
+	clear: both;
+}
+
+.tarefaAdd:hover {
+	background: #D7BDE2;
+}
+
+.tarefaAdd-feita {
+	height: 100px auto;
+	width: 130px auto;
+	cursor: pointer;
+	background: #FADBD8;
+	color: #76448A;
+	padding: 10px;
+	margin: 20px;
+	border: none;
+	border-radius: 35px;
+	text-align: center;
+	transition: 0.7s all;
+	display: inline-block;
+	clear: both;
+}
+
+.tarefaAdd-feita:hover {
+	background: #F5B7B1;
+}
+
+#mensagem-erro{
+	margin: 0 10px ;
+	
+}
+
+#mensagem-erro li {
+	font-size: 20px;
+	color: red;
+}
+
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.7s;
+}
